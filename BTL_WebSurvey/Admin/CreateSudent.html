@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/Admin/CSS/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header-page">
+        <h1>Admin</h1>
+        <a href="/Users/Logout"> Đăng xuất</a>  
+     </div>
+    <div class="wrapper">
+        <div class="content-left">
+
+            <a href="/Users">Danh s&#225;ch c&#225;c user</a>
+            <br />
+            <a href="/Students">Quản l&#253; sinh vi&#234;n</a>
+            <br />
+            <a href="/Teachers">Quản l&#253; giảng vi&#234;n</a>
+            <br />
+            <a href="/Subjects">Quản l&#253; c&#225;c học phần</a>
+            <br />
+            <a href="/ContentSurveys">Quản l&#253; Phiếu khảo s&#225;t</a>
+
+
+        </div>
+        <div class="content-right">
+            <div class="ContentAjax"></div>
+            
+
+
+<h2>Create</h2>
+
+
+<form action="/Students/Create" method="post"><input name="__RequestVerificationToken" type="hidden" value="iQrzIkWt1RXsDnqxm815XOpQMJmRbKT4yDBKZKVDlB-zUrOQ_D7-AXxwu-AcCox7OaySAHiTxmHKfg6qtYAtr4JcyVKdlc6lhjsiSBdCFbI1" />    <div class="form-horizontal">
+        <h4>Student</h4>
+        <hr />
+        
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Name">Name</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="Name" name="Name" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="StudentCode">StudentCode</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="StudentCode" name="StudentCode" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="StudentCode" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Course">Course</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="Course" name="Course" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="Course" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="DateOfBirth">DateOfBirth</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" data-val="true" data-val-date="The field DateOfBirth must be a date." id="DateOfBirth" name="DateOfBirth" type="datetime" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="DateOfBirth" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Email">Email</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="Email" name="Email" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="UserName">UserName</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="UserName" name="UserName" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="PassWord">PassWord</label>
+            <div class="col-md-10">
+                <input class="form-control text-box single-line" id="PassWord" name="PassWord" type="text" value="" />
+                <span class="field-validation-valid text-danger" data-valmsg-for="PassWord" data-valmsg-replace="true"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+<div>
+    <a href="/Students">Back to List</a>
+</div>
+
+
+        </div>
+    </div>
+
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../Content/Admin/JS/admin.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</body>
+</html>

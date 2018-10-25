@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/Admin/CSS/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="header-page">
+        <h1>Admin</h1>
+        <a href="/Users/Logout"> Đăng xuất</a>  
+     </div>
+    <div class="wrapper">
+        <div class="content-left">
+
+            <a href="/Users">Danh s&#225;ch c&#225;c user</a>
+            <br />
+            <a href="/Students">Quản l&#253; sinh vi&#234;n</a>
+            <br />
+            <a href="/Teachers">Quản l&#253; giảng vi&#234;n</a>
+            <br />
+            <a href="/Subjects">Quản l&#253; c&#225;c học phần</a>
+            <br />
+            <a href="/ContentSurveys">Quản l&#253; Phiếu khảo s&#225;t</a>
+
+
+        </div>
+        <div class="content-right">
+            <div class="ContentAjax"></div>
+            
+
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Name
+        </dt>
+
+        <dd>
+            Nguyễn Tiến Xu&#226;n
+        </dd>
+
+        <dt>
+            StudentCode
+        </dt>
+
+        <dd>
+            16020019
+        </dd>
+
+        <dt>
+            Course
+        </dt>
+
+        <dd>
+            QH-2016-CB
+        </dd>
+
+        <dt>
+            DateOfBirth
+        </dt>
+
+        <dd>
+            06/06/1998 12:00:00 SA
+        </dd>
+
+        <dt>
+            Email
+        </dt>
+
+        <dd>
+            16020028@vnu.edu.vn
+        </dd>
+
+        <dt>
+            UserName
+        </dt>
+
+        <dd>
+            16020019
+        </dd>
+
+        <dt>
+            PassWord
+        </dt>
+
+        <dd>
+            54321
+        </dd>
+
+    </dl>
+
+<form action="/Students/Delete/1" method="post"><input name="__RequestVerificationToken" type="hidden" value="DKw9Ns5S3cNmYLjr0_ybA3htixJA7dPMBDHXsbPLg6Ef2T7Z563gawoMhvkHnXTCYy38qXDupdqQDIGodOFrgw4nFAOiOFHOGs0d9XqLnFE1" />        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a href="/Students">Back to List</a>
+        </div>
+</form></div>
+
+        </div>
+    </div>
+
+    <script src="../Scripts/jquery-3.3.1.min.js"></script>
+    <script src="../Content/Admin/JS/admin.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</body>
+</html>

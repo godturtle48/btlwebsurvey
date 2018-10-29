@@ -1,0 +1,32 @@
+.navbar {
+	margin-bottom: 0px;
+}
+
+.padding-hori-0 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.review-quantity .thumbnail{
+	background-color: red;
+	height: 180px;
+    width: 100%;
+}
+
+.teacher-quantity .thumbnail {
+	background-color: red;
+	height: 180px;
+    width: 100%;
+}
+
+.student-quantity .thumbnail{
+	background-color: red;
+	height: 180px;
+    width: 100%;
+}
+
+.online-quantity .thumbnail{
+	background-color: red;
+	height: 180px;
+    width: 100%;
+}

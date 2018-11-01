@@ -1,0 +1,45 @@
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.padding-hori-0 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.items {
+	margin: 0 10px;
+}
+
+.list-group {
+	height: 90vh;
+	border-right: 1px solid #ddd;
+	margin-bottom: 0px;
+}
+
+.list-group .list-group-item {
+	border-radius: 0px;
+	border-right: 0px;
+	cursor: pointer;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-transform: uppercase;	
+}
+
+.arrow-right {
+	position: 	absolute;	
+	float: 	right;
+	right: 6px;
+    top: 38%;
+}
+
+.input-group {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 990px) {
+	.list-group {
+		height: 100%;
+	}
+}

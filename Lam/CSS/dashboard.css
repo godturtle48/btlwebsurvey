@@ -83,3 +83,9 @@ hr {
 	right: 6px;
     top: 38%;
 }
+
+@media screen and (max-width: 990px) {
+	.list-group {
+		height: 100%;
+	}
+}

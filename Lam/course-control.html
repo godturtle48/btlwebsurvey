@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="./CSS/bootstrap.min.css">
-	<link rel="stylesheet" href="./CSS/review-control.css">
+	<link rel="stylesheet" href="./CSS/course-control.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Quản lý phiếu đánh giá</title>
+	<title>Quản lý lớp học phần</title>
 </head>
 <body>
 	<div class="container-fluid">
@@ -46,16 +46,16 @@
 			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 padding-hori-0">
 				<div class="list-group">
 					<a class="list-group-item" href="./dashboard.html">Trang chủ<span class="glyphicon glyphicon-chevron-right arrow-right"></span> </a>
-					<a class="list-group-item active" href="#">Quản lý phiếu đánh giá<span class="glyphicon glyphicon-chevron-right arrow-right"></span></a>
+					<a class="list-group-item" href="./review-control.html">Quản lý phiếu đánh giá<span class="glyphicon glyphicon-chevron-right arrow-right"></span></a>
 					<a class="list-group-item" href="./teacher-control.html">Quản lý giáo viên<span class="glyphicon glyphicon-chevron-right arrow-right"></span></a>
 					<a class="list-group-item" href="./student-control.html">Quản lý sinh viên<span class="glyphicon glyphicon-chevron-right arrow-right"></span></a>
-					<a class="list-group-item" href="./course-control.html">Quản lý lớp học phần<span class="glyphicon glyphicon-chevron-right arrow-right"></span></a>
+					<a class="list-group-item active" href="./course-control.html">Quản lý lớp học phần<span class="glyphicon glyphicon-chevron-right arrow-right"></span></a>
 				</div>
 			</div><!--end-left-menu-->		
 		<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 ">
 				<div class="row">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						<h2>Quản lý phiếu đánh giá</h2>	
+						<h2>Quản lý sinh viên</h2>	
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 						<div class="input-group">
@@ -66,13 +66,18 @@
 					    </div><!-- /input-group -->
 					</div>
 				</div>
-				<div class="content-review">
+				<div class="content-teacher">
 					<div class="table-responsive">
 						<table class="table table-hover table-striped">
 							<thead>
-								<tr class="btn-danger">
+								<tr class="btn-warning">
 									<th>STT</th>
-									<th>Mã </th>
+									<th>Tên lớp học phần</th>
+									<th>Mã học phần</th>
+									<th>Giảng viên</th>
+									<th>Số tín chỉ</th>
+									<th>Phòng học</th>
+									<th>Thời gian</th>
 									<th>Tùy chỉnh</th>
 								</tr>	
 							</thead>
@@ -80,32 +85,57 @@
 								<tr class="table-striped">
 									<td>1</td>
 									<td>Đây là câu số 1</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
 									<td>
 										<button class="btn btn-warning">Sửa</button>
+										<button class="btn btn-info">Thông tin</button>
 										<button class="btn btn-danger">Xóa</button>
-									</td>
+									</td>									
 								</tr>
 								<tr>
 									<td>2</td>
 									<td>Đây là câu số 2</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
 									<td>
 										<button class="btn btn-warning">Sửa</button>
+										<button class="btn btn-info">Thông tin</button>
 										<button class="btn btn-danger">Xóa</button>
-									</td>
+									</td>									
 								</tr>
 								<tr>
 									<td>3</td>
 									<td>Đây là câu số 3</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
 									<td>
 										<button class="btn btn-warning">Sửa</button>
+										<button class="btn btn-info">Thông tin</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>
+									
 								</tr>
 								<tr>
 									<td>4</td>
 									<td>Đây là câu số 4</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
 									<td>
 										<button class="btn btn-warning">Sửa</button>
+										<button class="btn btn-info">Thông tin</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>
 								</tr>

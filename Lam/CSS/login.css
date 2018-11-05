@@ -16,8 +16,14 @@
 	height: 32px;
 }
 
-input:focus {
+input {
 	border: none;
+	border-bottom: 1px solid blue;
+	min-width: 200px;
+}
+
+input:focus {
+	outline: none;
 }
 
 #submit-button {

@@ -53,4 +53,5 @@ $('#username').keyup( function(e) {
 
 $('#password').keyup( function(e) {
 	DoKeyup(e, this, 'submit-button');
+	
 })

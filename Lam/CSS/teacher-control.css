@@ -54,3 +54,31 @@ h2 {
 		height: 100%;
 	}
 }
+
+.information-tab {
+	position: fixed;
+	margin: 0 auto;
+	width: 50vw;
+	height: auto;
+	z-index: 2;
+	top: 100px;
+	left: 25vw;
+	background-color: #5bc0de;
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 5px 7px 0px 7px; 
+	display: none;
+}
+
+.information-content {
+	background-color: #fff;
+}
+
+.bottom-button {
+	float: right;
+	padding-bottom: 5px;
+}
+
+.table {
+	margin-bottom: 5px;
+}

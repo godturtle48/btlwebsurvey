@@ -17,25 +17,25 @@ h2 {
 }
 
 .review-quantity .thumbnail{
-	background-color: #D44844;
+	background-color: #00C3FF;
 	height: 180px;
     width: 100%;
 }
 
 .teacher-quantity .thumbnail {
-	background-color: #236AA1;
+	background-color: #12FF75;
 	height: 180px;
     width: 100%;
 }
 
 .student-quantity .thumbnail{
-	background-color: #D8DB5C;
+	background-color: #FF9662;
 	height: 180px;
     width: 100%;
 }
 
 .online-quantity .thumbnail{
-	background-color: #877575;
+	background-color: #934BEB;
 	height: 180px;
     width: 100%;
 }
@@ -99,4 +99,8 @@ hr {
 	.list-group {
 		height: 100%;
 	}
+}
+
+.border-red {
+	border-color: red;
 }

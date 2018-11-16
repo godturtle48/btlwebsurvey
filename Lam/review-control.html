@@ -66,6 +66,7 @@
 					    </div><!-- /input-group -->
 					</div>
 				</div>
+				<button class="btn btn-primary" id="add-button">Thêm mới</button>
 				<div class="content-review">
 					<div class="table-responsive">
 						<table class="table table-hover table-striped">
@@ -81,7 +82,7 @@
 									<td>1</td>
 									<td>Đây là câu số 1</td>
 									<td>
-										<button class="btn btn-warning">Sửa</button>
+										<button class="btn btn-warning btn-edit">Sửa</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>
 								</tr>
@@ -97,7 +98,7 @@
 									<td>3</td>
 									<td>Đây là câu số 3</td>
 									<td>
-										<button class="btn btn-warning">Sửa</button>
+										<button class="btn btn-warning btn-edit">Sửa</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>
 								</tr>
@@ -114,8 +115,47 @@
 					</div>
 				</div>
 		</div><!-- end-main-review-page -->
-	</div>
+		<div class="add-tab">
+					<div class="header-tab">
+						<h4>Thông tin câu hỏi</h4>
+					</div>
+					<div class="information-content  table-responsive">
+						<form action="">
+							<table class="table table-hover table-striped">
+									<tr>
+										<th>Câu hỏi</th>
+										<th><input type="text" class="input-information" value="" ></th>
+									</tr>
+							</table>
+						</form>
+					</div>
+					<div class="bottom-button">
+						<button class="btn btn-success btn-submit">Ghi nhận</button>
+						<button class="btn btn-danger btn-close">Hủy</button>
+					</div>
+				</div>
+		</div><div class="edit-tab">
+					<div class="header-tab">
+						<h4>Thông tin câu hỏi</h4>
+					</div>
+					<div class="information-content  table-responsive">
+						<form action="">
+							<table class="table table-hover table-striped">
+									<tr>
+										<th>Câu hỏi</th>
+										<th><input type="text" class="input-information" value="" ></th>
+									</tr>
+							</table>
+						</form>
+					</div>
+					<div class="bottom-button">
+						<button class="btn btn-success btn-submit">Ghi nhận</button>
+						<button class="btn btn-danger btn-close">Hủy</button>
+					</div>
+				</div>
+		</div>
 	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/student-control.js"></script>
 </body>
 </html>

@@ -66,6 +66,7 @@
 					    </div><!-- /input-group -->
 					</div>
 				</div>
+				<button class="btn btn-primary" id="add-button">Thêm mới</button>
 				<div class="content-teacher">
 					<div class="table-responsive">
 						<table class="table table-hover table-striped">
@@ -73,9 +74,7 @@
 								<tr class="btn-primary">
 									<th>STT</th>
 									<th>Họ và tên</th>
-									<th>Mã sinh viên</th>
 									<th>Lớp</th>
-									<th>Ngày sinh</th>
 									<th>Email</th>
 									<th>Username</th>
 									<th>Password</th>
@@ -90,11 +89,8 @@
 									<td></td>
 									<td></td>
 									<td></td>
-									<td></td>
-									<td></td>
 									<td>
-										<button class="btn btn-warning">Sửa</button>
-										<button class="btn btn-info">Thông tin</button>
+										<button class="btn btn-warning btn-edit">Sửa</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>									
 								</tr>
@@ -105,11 +101,8 @@
 									<td></td>
 									<td></td>
 									<td></td>
-									<td></td>
-									<td></td>
 									<td>
-										<button class="btn btn-warning">Sửa</button>
-										<button class="btn btn-info">Thông tin</button>
+										<button class="btn btn-warning btn-edit">Sửa</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>									
 								</tr>
@@ -120,11 +113,8 @@
 									<td></td>
 									<td></td>
 									<td></td>
-									<td></td>
-									<td></td>
 									<td>
-										<button class="btn btn-warning">Sửa</button>
-										<button class="btn btn-info">Thông tin</button>
+										<button class="btn btn-warning btn-edit">Sửa</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>
 									
@@ -136,11 +126,8 @@
 									<td></td>
 									<td></td>
 									<td></td>
-									<td></td>
-									<td></td>
 									<td>
-										<button class="btn btn-warning">Sửa</button>
-										<button class="btn btn-info">Thông tin</button>
+										<button class="btn btn-warning btn-edit">Sửa</button>
 										<button class="btn btn-danger">Xóa</button>
 									</td>
 								</tr>
@@ -150,45 +137,98 @@
 				</div>				
 		</div><!-- end-main-review-page -->
 	</div>
-	<div class="information-tab">
+	<div class="add-tab">
 					<div class="header-tab">
 						<h4>Thông tin sinh viên</h4>
 					</div>
-					<div class="information-content">
-						<table class="table table-hover table-striped">
-							<thead>
-								<tr>
-									<th>Họ và tên</th>
-									<th>Nguyễn Tiến Xuân</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Mã sinh viên</td>
-									<td>16000000</td>
-								</tr>
-								<tr>
-									<td>Lớp</td>
-									<td>QH-2016-CB</td>
-								</tr>
-								<tr>
-									<td>Ngày sinh</td>
-									<td>01/01/0000</td>
-								</tr>
-								<tr>
-									<td>Username</td>
-									<td>username</td>
-								</tr>
-								<tr>
-									<td>Password</td>
-									<td>12345</td>
-								</tr>
-							</tbody>
-						</table>
+					<div class="information-content  table-responsive">
+						<form action="">
+							<table class="table table-hover table-striped">
+								<thead>
+									<tr>
+										<th>Họ và tên</th>
+										<th><input type="text" class="input-information name" value=""></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Mã sinh viên</td>
+										<td><input type="text" class="input-information" value="" ></td>
+									</tr>
+									<tr>
+										<td>Lớp học</td>
+										<td><input type="text" class="input-information" value="" ></td>
+									</tr>
+									<tr>
+										<td>Ngày sinh</td>
+										<td><input type="date" class="input-information" value="" ></td>
+									</tr>
+									<tr>
+										<td>Địa chỉ email</td>
+										<td><input type="text" class="input-information" value=""></td>
+									</tr>
+									<tr>
+										<td>Tên đăng nhập</td>
+										<td><input type="text" class="input-information" value=""	></td>
+									</tr>
+									<tr>
+										<td>Mật khẩu</td>
+										<td><input type="text" class="input-information" value=""	></td>
+									</tr>
+								</tbody>
+							</table>
+							</form>
 					</div>
 					<div class="bottom-button">
-						<button class="btn btn-warning">Sửa</button>
-						<button class="btn btn-danger btn-close">Đóng</button>
+						<button class="btn btn-success btn-submit">Ghi nhận</button>
+						<button class="btn btn-danger btn-close">Hủy bỏ</button>
+					</div>
+	</div>
+	<div class="edit-tab">
+					<div class="header-tab">
+						<h4>Thông tin sinh viên</h4>
+					</div>
+					<div class="information-content  table-responsive">
+						<form action="">
+							<table class="table table-hover table-striped">
+								<thead>
+									<tr>
+										<th>Họ và tên</th>
+										<th><input type="text" class="input-information name" value="" ></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Mã sinh viên</td>
+										<td><input type="text" class="input-information" value="" ></td>
+									</tr>
+									<tr>
+										<td>Lớp học</td>
+										<td><input type="text" class="input-information" value="" ></td>
+									</tr>
+									<tr>
+										<td>Ngày sinh</td>
+										<td><input type="date" class="input-information" value="" ></td>
+									</tr>
+									<tr>
+										<td>Địa chỉ email</td>
+										<td><input type="text" class="input-information" value=""></td>
+									</tr>
+									<tr>
+										<td>Tên đăng nhập</td>
+										<td><input type="text" class="input-information" value=""	></td>
+									</tr>
+									<tr>
+										<td>Mật khẩu</td>
+										<td><input type="text" class="input-information" value=""	></td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+					</div>
+					<div class="bottom-button">
+						<button class="btn btn-success btn-submit">Ghi nhận</button>
+						<button class="btn btn-danger btn-close">Hủy bỏ</button>
 					</div>
 	</div>
 	<div class="delete-alert">

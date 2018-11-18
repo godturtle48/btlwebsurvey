@@ -1,6 +1,18 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+* {
+  font-family: Poppins-Regular, sans-serif;
+}
 .top-bar {
   height: 60px;
-  background-color: cyan;
+  background-color: #f7ed79;
 }
 
 input { 
@@ -11,6 +23,7 @@ input {
   padding: 5px;
   padding-left: 40px;
   margin: 10px 0px;
+
 }
 input:focus {
   outline: none;
@@ -24,6 +37,22 @@ input:focus {
   color: white;
 }
 .fa {
-  position: absolute;
-  float: left;
+  position: relative;
+  left: -210px;
+}
+.login-box {
+  background-color: #9dcb8d;
+  height: calc(100vh - 120px);
+}
+.login-form {
+  padding-top: 120px;
+}
+.bottom-bar {
+  height: 60px;
+  background-color: #f7ed79;
+  padding: 20px 0px;
+}
+.title {
+  font-family: Poppins-Bold, sans-serif;
+  font-size: 20px;
 }
